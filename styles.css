@@ -76,12 +76,9 @@ div {
     padding-bottom: 8px;
     padding-left: 15px;
     padding-right: 15px;
-
-    
   } 
 
-  /* flex gør at de udfylder baren samtidig med at alle knapper er lige bredde */
-
+  /* flex gør at de udfylder hele baren samtidig med at alle knapper er lige bredde */
   .nav-bar-button {
     background-color: rgb(113, 163, 204);
     flex:1;
@@ -120,12 +117,19 @@ div {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
+    justify-content:start;
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 50px;
     
   }
-
+   .frontpage .board-picture {
+    width: 250px;
+    height: 450px;
+    object-fit: cover;
+    margin-bottom: 12px;
+    margin-inline: 75px; 
+}
 
   .board {
     width: 400px;
